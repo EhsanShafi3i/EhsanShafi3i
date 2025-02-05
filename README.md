@@ -3,25 +3,29 @@
 ```py
 from Universe.MilkyWay.Earth import Human
 
+
 class Iran(Human):
-    Name = "Ehsan Shafiei"
-    Age = 21
-    Field = "Backend Development"
-    Education = "BS student in Computer Science"
+    """Represents a human from Iran with specific attributes."""
 
-    Programminglangauges = ["Python", "C", "Go", "JavaScript"]
-    Frameworks = ["Django", "Django REST", "Flask"]
+    name = "Ehsan Shafiei"
+    age = 21
+    field = "Backend Development"
+    education = "BS student in Computer Science"
 
-    Favorites = [
+    programming_languages = ["Python", "C", "Go", "JavaScript"]
+    frameworks = ["Django", "Django REST", "Flask"]
+
+    favorites = [
         "💻 Computer",
         "🎨 Drawing",
         "👨‍💻 Programming",
         "📚 Book",
         "✍️ Writing",
     ]
-    Learning = [
+
+    learning = [
         "🔒 Cybersecurity",
-        "💻 Hacking"
+        "💻 Hacking",
     ]
 
 ```
